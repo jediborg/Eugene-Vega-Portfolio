@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{23b40a11-facb-4418-8618-125d978a33bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Animation">
+      <UniqueIdentifier>{f5fd5e49-0c00-46ef-8c6a-27d36a290867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Loader">
+      <UniqueIdentifier>{e16f3b22-cece-4b8b-9c08-3341e9eef207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{df797240-ca04-4151-bf90-8f27d214e530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OGL">
+      <UniqueIdentifier>{8869d58d-10fe-480c-ba86-1ab369cdfcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{dd3d53e8-afc1-42b7-a066-64333c5bc5f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Animation\Interpolator.h">
+      <Filter>Source\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Loader\VertLoader.h">
+      <Filter>Source\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\matrix3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\matrix4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\vec3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\vec4.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\EDCamera.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\EDFrame.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\EDNode.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Timer.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OGL\GLee.h">
+      <Filter>Source\OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation\Animation.h">
+      <Filter>Source\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Loader\VertLoader.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\EDCamera.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OGL\GLee.c">
+      <Filter>Source\OGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
